@@ -1,0 +1,56 @@
+body{
+  background: url(/Background.png);
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+
+}
+html{
+  height: 100%;
+}
+
+.login{
+  border: 4px solid grey;
+  border-radius: 10px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 1),
+  -23px 0 20px -23px rgba(0, 0, 0, .8),
+  23px 0 20px -23px rgba(0, 0, 0, .8),
+  0 0 40px rgba(0, 0, 0, .1) inset;
+  margin: 0 auto;
+  width: 500px;
+  height: 300px;
+  font-family: 'Bebas Neue';
+  background-image: linear-gradient(to bottom,#eeeeee, #fff);
+}
+.login form div
+{
+height: 50px;
+}
+.login h1
+{
+text-align: center;
+padding-top: 10px;
+padding-bottom: 10px;
+}
+
+.login input
+{
+float: right;
+margin-right: 20px;
+}
+
+.login label
+{
+margin-left: 40px;
+}
+
+.login button
+{
+float: right;
+margin-top: 60px;
+margin-right: 50px;
+}

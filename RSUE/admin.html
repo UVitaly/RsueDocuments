@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="css\admin_style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <script type="text/javascript" src="/js/jquery-3.3.1.min.js"></script>
+	<script type="text/javascript" src="/js/script.js"></script>
+    <title>Admin</title>
+</head>
+<body>
+        <div class="tabs">           
+                <input type="radio" name="inset" value="" id="tab_1" checked>
+                <label for="tab_1">Добавление/редактирование пользователя</label>
+            
+                <input type="radio" name="inset" value="" id="tab_2">
+                <label for="tab_2">Добавление/редактирование документа</label>
+            
+                <input type="button" name="log-out" value="" id="tab_3">
+                <label class="log-out" for="tab_3">Выход</label>
+                <div id="txt_1">
+                    <table border="1">                               
+                        <tr>
+                            <td>Ячейка 1</td>
+                            <td>Ячейка 2</td>
+                            <td>Ячейка 3</td>
+                        </tr>
+                    
+                        <!--Это будет второй ряд таблицы:-->
+                        <tr>
+                            <td>Ячейка 4</td>
+                            <td>Ячейка 5</td>
+                            <td>Ячейка 6</td>
+                        </tr>
+                    
+                        <!--Это будет третий ряд таблицы:-->
+                        <tr>
+                            <td>Ячейка 7</td>
+                            <td>Ячейка 8</td>
+                            <td>Ячейка 9</td>
+                        </tr>
+                    </table>
+                </div>                   
+                <div id="txt_2">
+                        <form id="upload-container" method="POST" action="send.php">
+                                <img id="upload-image" src="Images/Dowload.png">
+                                <div>
+                                    <input id="file-input" type="file" name="file" multiple>
+                                    <label for="file-input">Выберите файл</label>
+                                    <span>или перетащите его сюда</span>
+                                </div>
+                            </form>
+                </div>     
+        </div>
+</body>
+</html>
