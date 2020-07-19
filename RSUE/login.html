@@ -18,18 +18,19 @@
           </div>
                     <div class="login">
                         <h1>Войти в сервис</h1>
-                            <form method="post" action="">
+                            <form method="post"  action="auth.php">
                                 <div>                            
                                   <label for="email">E-mail</label>
                                   <input type="email" class="form-control w-50" name="email" placeholder="E-mail" required>
                                 </div>
                                 <div>
                                     <label for="password">Пароль</label>
-                                    <input type="password" class="form-control w-50" id="inputPassword2" placeholder="Password" required>
+                                    <input type="password" class="form-control w-50" id="inputPassword2" name="pass" placeholder="Password" required>
                                   </div>
                                 <button  class="btn btn-outline-secondary" type="submit">Отправить</button> 
                               </form> 
-                        </div>  
+                        </div>                        
+                    <a href="/?action=out">Выход</a>
     </div> 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
