@@ -1,6 +1,6 @@
 body
 {
-    background: url(Images/Background.png);
+    background-image: url(/Images/Background.png);
     padding: 0px;
     margin: 0px;
     color:white;
@@ -39,6 +39,11 @@ header
     font-size: 20px;
     float: right;
     padding-left: 1000px;
+}
+.log_reg button
+{
+    background: transparent;
+    border:0px;
 }
 .log_reg a{
     color: whitesmoke;
